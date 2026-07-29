@@ -24,7 +24,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::273434037739:role/taskflow-github-actions-api-role
+          role-to-assume: arn:aws:iam::261945560709:role/taskflow-github-actions-api-role
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Login to Amazon ECR
