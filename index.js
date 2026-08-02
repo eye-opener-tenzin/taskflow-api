@@ -17,7 +17,7 @@ const pool = new Pool({
 });
 
 app.get('/health', (req, res) => {
-  res.json({ status: 'ok' });
+  res.json({ status: 'ok', version: 'v2' });
 });
 
 app.get('/tasks', async (req, res) => {
